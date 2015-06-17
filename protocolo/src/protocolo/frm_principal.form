@@ -4,20 +4,31 @@
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu1">
+        <Menu class="javax.swing.JMenu" name="jMenu4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Entrada"/>
+            <Property name="text" type="java.lang.String" value="Protocolo"/>
           </Properties>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Saida"/>
-          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jMenu1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Entrada"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Saida"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu3">
           <Properties>
             <Property name="text" type="java.lang.String" value="Sair"/>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu3MouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenu3ActionPerformed"/>
+          </Events>
         </Menu>
       </SubComponents>
     </Menu>
